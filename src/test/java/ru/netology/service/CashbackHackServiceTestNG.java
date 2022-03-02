@@ -17,7 +17,7 @@ public class CashbackHackServiceTestNG {
         assertEquals(service.remain(1100), 900);
     }
 
-    @Ignore
+   
     @Test
     public void equalsBorder() {
         CashbackHackService service = new CashbackHackService();
