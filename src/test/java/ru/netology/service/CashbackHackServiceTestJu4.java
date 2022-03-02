@@ -16,7 +16,7 @@ public class CashbackHackServiceTestJu4 {
         CashbackHackService service = new CashbackHackService();
         assertEquals(900,service.remain(1100));
     }
-    @Ignore
+    
     @Test
     public void  equalsBorder(){
         CashbackHackService service= new CashbackHackService();
