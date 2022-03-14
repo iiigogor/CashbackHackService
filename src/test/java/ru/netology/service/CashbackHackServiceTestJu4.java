@@ -1,6 +1,5 @@
 package ru.netology.service;
 import static org.junit.Assert.*;
-import org.junit.Ignore;
 import org.junit.Test;
 
 public class CashbackHackServiceTestJu4 {
@@ -20,7 +19,7 @@ public class CashbackHackServiceTestJu4 {
     @Test
     public void  equalsBorder(){
         CashbackHackService service= new CashbackHackService();
-        int amount=1000;
+        int amount=2000;
         assertEquals(0,service.remain(1000));
     }
 }

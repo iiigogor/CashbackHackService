@@ -1,10 +1,10 @@
 package ru.netology.service;
-import org.testng.annotations.Ignore;
-import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CashbackHackServiceTestNG {
+public class CashbackHackServiceTestng {
+
     @Test
     public void belowTheBorder() {
         CashbackHackService service = new CashbackHackService();
@@ -21,7 +21,7 @@ public class CashbackHackServiceTestNG {
     @Test
     public void equalsBorder() {
         CashbackHackService service = new CashbackHackService();
-        int amount = 1000;
+        int amount = 2000;
         assertEquals(service.remain(1000), 0);
     }
 }
