@@ -1,6 +1,6 @@
 package ru.netology.service;
-import static org.junit.Assert.*;
-import org.junit.Ignore;
+
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class CashbackHackServiceTestJu4 {
@@ -16,7 +16,8 @@ public class CashbackHackServiceTestJu4 {
         CashbackHackService service = new CashbackHackService();
         assertEquals(900,service.remain(1100));
     }
-    
+
+
     @Test
     public void  equalsBorder(){
         CashbackHackService service= new CashbackHackService();
