@@ -1,9 +1,11 @@
 package ru.netology.service;
 
+
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
-public class CashbackHackServiceTestJu4 {
+public class CashbackHackServiceTest {
     @Test
     public void belowTheBorder() {
         CashbackHackService service = new CashbackHackService();
